@@ -158,5 +158,21 @@
       "description": "Fan illustration of Smaug from 'The Hobbit'",
       "keyword": "dragon",
       "horns": 100
+    },
+    {
+      "_id": 21,
+      "image_url": "https://www.zeldadungeon.net/wiki/images/thumb/c/c9/Dodongo-LoZ-Art-2.png/160px-Dodongo-LoZ-Art-2.png",
+      "title": "Dodongo",
+      "description": "Dodongo dislikes smoke",
+      "keyword": "rhino",
+      "horns": 2
+    },
+    {
+      "_id": 22,
+      "image_url": "https://mario.wiki.gallery/images/thumb/7/7d/MSOGT_Bowser.png/300px-MSOGT_Bowser.png",
+      "title": "Bowser",
+      "description": "King Koopa of the Koopa Troop",
+      "keyword": "koopa",
+      "horns": 2
     }
   ]
