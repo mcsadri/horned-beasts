@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Horned Beasts
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Horned Beasts** is a student coding project that will create a JavaScript React application that will display images and information of horned animals. The application will allow you to filter the images by number of horns and chose your favorite image.
 
-## Available Scripts
+Developer: Manuch Sadri  
+Tools: Visual Studio Code, React, React Bootstrap, Netlify
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Lab 02
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Feature Requirements
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Feature #1: Display images
+  - As a user, I want to view the images on the page so that I can browse the photo collection.
 
-### `npm test`
+- Feature #2: Allow users to vote for their favorite beast
+  - As a user, I want to be able to interact with the site and pick my favorite beast.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Feature 3: Bootstrap
+  - As a user, I want to see a visually pleasing application that is also reponsive when I view this application on different screen sizes.
 
-### `npm run build`
+- Stretch Goal: Add Interaction
+  - As a user, I want to be able to interact with each item on the page.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Time Estimate Tracking
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+| Number & Name of Feature | #1: Display Images | #2: User Vote | #3: Bootstrap | Stretch: Interaction |
+|--------------------------|--------------------|---------------|---------------|----------------------|
+| Est. Time to Complete    | 01:00 | 00:30 | 00:30 | --:-- |
+| Start Time               | 21:00 | 22:35 | 21:50 | --:-- |
+| Finish Time              | 21:45 | 23:25 | 22:35 | --:-- |
+| Actual Time to Complete  | 00:45 | 00:50 | 00:45 | --:-- |
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## Lab 01
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Feature Tasks:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Complete the following steps to setup your repository:
+  - Create a React application using `create-react-app` as demonstrated in class.
+    - Use the command `npx create-react-app <repo-name>`.
+  - Create a new repository on GitHub WITHOUT a README.md. We will import an “existing” repository with its own README
+  - Follow the instructions given by GitHub to “push an existing repository from the command line” be sure to select HTTPS or SSH, whichever is relevant for you
+  - Create a Branch and begin your work. As always, ACP often
+- Your `App` component should render a `Header`, `Footer`, and `Main` component, each of which is defined in their own files.
+- Your `Header` component needs to have an `<h1>` with a title.
+- Your `Footer` component needs to contain your name as the author.
+- The `Main` component needs to render at least two copies of a component called `HornedBeast`.
+- The `Main` component needs to pass `title`, `imageUrl`, and `description` into each `HornedBeast` component. For the purpose of today’s lab, you can pass whatever title, url and description that you want into each `HornedBeast` commponent.
+- The `HornedBeast` component needs to contain an `<h2>` that displays the title of the animal, an `<img`> element with `src`, `alt`, and `title` attributes, and a `<p>` that displays the description.
