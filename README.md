@@ -27,10 +27,10 @@ Tools: Visual Studio Code, React, React Bootstrap, Netlify
 
 | Number & Name of Feature | #1: Display Images | #2: User Vote | #3: Bootstrap | Stretch: Interaction |
 |--------------------------|--------------------|---------------|---------------|----------------------|
-| Est. Time to Complete    | 01:00 | 00:30 | 00:30 | . |
-| Start Time               | 21:00 | . | 21:50 | . |
-| Finish Time              | 21:45 | . | . | . |
-| Actual Time to Complete  | . | . | . | . |
+| Est. Time to Complete    | 01:00 | 00:30 | 00:30 | --:-- |
+| Start Time               | 21:00 | 22:35 | 21:50 | --:-- |
+| Finish Time              | 21:45 | 23:25 | 22:35 | --:-- |
+| Actual Time to Complete  | 00:45 | 00:50 | 00:45 | --:-- |
 
 ---
 
