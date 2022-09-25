@@ -7,9 +7,30 @@ Tools: Visual Studio Code, React, React Bootstrap, Netlify
 
 ---
 
+## Lab 03
+
+### Feature Requirements 03
+
+- Feature #1: Display a Modal
+  - As a user, I want the image to be displayed in a larger size and with the description shown so that I can view the details of a single image
+
+- Stretch Goal: Fuzzy search
+  - As a user, I want the ability to search my images so that I can view only the images containing specific titles or keywords.
+
+### Time Estimate Tracking 03
+
+| Number & Name of Feature | #1: Display Display Modal | Stretch: Search |
+|--------------------------|-------|-------|
+| Est. Time to Complete    | 02:00 | --:-- |
+| Start Time               | 15:00 | --:-- |
+| Finish Time              | --:-- | --:-- |
+| Actual Time to Complete  | --:-- | --:-- |
+
+---
+
 ## Lab 02
 
-### Feature Requirements
+### Feature Requirements 02
 
 - Feature #1: Display images
   - As a user, I want to view the images on the page so that I can browse the photo collection.
@@ -23,7 +44,7 @@ Tools: Visual Studio Code, React, React Bootstrap, Netlify
 - Stretch Goal: Add Interaction
   - As a user, I want to be able to interact with each item on the page.
 
-### Time Estimate Tracking
+### Time Estimate Tracking 02
 
 | Number & Name of Feature | #1: Display Images | #2: User Vote | #3: Bootstrap | Stretch: Interaction |
 |--------------------------|--------------------|---------------|---------------|----------------------|

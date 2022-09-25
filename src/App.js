@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import data from './data.json';
 import Header from './Header';
 import Main from './Main';
 import Footer from './Footer';
@@ -9,7 +10,9 @@ class App extends React.Component {
     return (
       <div className="App">
         <Header />
-        <Main />
+        <Main
+          beasts = {data}  
+        />
         <Footer />
       </div>
     );

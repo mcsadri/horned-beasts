@@ -1,21 +1,22 @@
 import React from 'react';
-import data from './data.json'
 import Beast from './Beast';
+import Row from 'react-bootstrap/Row';
 
 class Main extends React.Component {
     render () {
         return (
             <>
-                {/* map() solution derived from http://www.hackingwithreact.com/read/1/13/rendering-an-array-of-data-with-map-and-jsx */}
-                {data.map(beast => 
-                    <Beast
-                        title={beast.title}
-                        imageUrl={beast.image_url}
-                        description={beast.description}
-                    />
-                )}
+                <Row xs={1} sm={1} md={2} lg={3} xl={4} xxl={5}>
+                    {this.props.beasts.map(beast => 
+                        <Beast
+                            title={beast.title}
+                            imageUrl={beast.image_url}
+                            description={beast.description}
+                        />
+                    )}
+                </Row>
             </>
-        )
+        );
     }
 }
 
