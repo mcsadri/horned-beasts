@@ -1,6 +1,8 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-import Container from 'react-bootstrap/Container';
+// import Container from 'react-bootstrap/Container';
+import Col from 'react-bootstrap/Col';
+import Button from 'react-bootstrap/Button';
 
 class Beast extends React.Component {
 
@@ -8,31 +10,48 @@ class Beast extends React.Component {
         super(props);
         this.state = {
             count: 0
-        }
-    }
+        };
+    };
 
-    handleClick = () => {
+    handleFavorite = () => {
         this.setState({count: this.state.count + 1});
-    }
+    };
+
+    handleShowModal = () => {
+        this.props.handleShowModal(this.props.beast);
+    };    
 
     render () {
         return (
-            <Container>
-                <Card style={{ width: '18rem' }}>
+            <Col>
+                <Card className="h-100">
                     <Card.Body>
                         <Card.Title>{this.props.title}</Card.Title>
                         <Card.Img
                             src={this.props.imageUrl}
                             alt={this.props.title}
                             title={this.props.title}
-                            onClick={this.handleClick}
                         />
                         <Card.Text>{this.props.description}</Card.Text>
-                        <Card.Text>❤ = {this.state.count}</Card.Text>
+                        <Card.Text>⭐ = {this.state.count}</Card.Text>
+                        <div className="d-grid gap-2">
+                            <Button
+                                onClick={this.handleFavorite}
+                                variant="outline-primary"
+                                size="sm">
+                                ⭐ this beast!
+                            </Button>
+                            <Button
+                                onClick={this.handleShowModal}
+                                variant="outline-primary"
+                                size="sm">
+                                Embiggen!
+                            </Button>
+                        </div>
                     </Card.Body>
                 </Card>
-            </Container>            
-        )
+            </Col>            
+        );
     }
 }
 
