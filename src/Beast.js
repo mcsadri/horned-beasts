@@ -1,6 +1,5 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-// import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 
@@ -15,11 +14,7 @@ class Beast extends React.Component {
 
     handleFavorite = () => {
         this.setState({count: this.state.count + 1});
-    };
-
-    handleShowModal = () => {
-        this.props.handleShowModal(this.props.beast);
-    };    
+    };  
 
     render () {
         return (
@@ -28,6 +23,7 @@ class Beast extends React.Component {
                     <Card.Body>
                         <Card.Title>{this.props.title}</Card.Title>
                         <Card.Img
+                            id={this.props.id}
                             src={this.props.imageUrl}
                             alt={this.props.title}
                             title={this.props.title}
@@ -42,7 +38,7 @@ class Beast extends React.Component {
                                 ⭐ this beast!
                             </Button>
                             <Button
-                                onClick={this.handleShowModal}
+                                onClick={() => this.props.handleOpen(this.props.id)}
                                 variant="outline-primary"
                                 size="sm">
                                 Embiggen!
