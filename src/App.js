@@ -11,16 +11,17 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      showBeastModal: false
+      show: false,
+      selectedBeast: {}
     }
   }
 
-  handleCloseModal = () => {
-    this.setState({showBeastModal: false});
-  }
+  handleClose = () => this.setState({show: false});
 
-  handleShowModal = () => {
-    this.setState({showBeastModal: true});
+  handleOpen = (beastId) => {
+    console.log('beastId: ', beastId);
+    const selectedBeast = data.find(beast => beast._id === beastId);
+    this.setState({show: true, selectedBeast: selectedBeast});
   }
 
 render() {
@@ -28,11 +29,13 @@ render() {
       <div className="App">
         <Header />
         <Main
-          beasts = {data}  
+          beasts = {data}
+          handleOpen={this.handleOpen}
         />
         <BeastModal
-          show={this.state.showBeastModal}
-          handleClose={this.handleCloseModal}
+          show={this.state.show}
+          handleClose={this.handleClose}
+          selectedBeast={this.state.selectedBeast}
         />
         <Footer />
       </div>
