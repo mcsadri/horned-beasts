@@ -3,7 +3,25 @@
 **Horned Beasts** is a student coding project that will create a JavaScript React application that will display images and information of horned animals. The application will allow you to filter the images by number of horns and chose your favorite image.
 
 Developer: Manuch Sadri  
-Tools: Visual Studio Code, React, React Bootstrap, Netlify
+Tools: Visual Studio Code, React, React-Bootstrap, Netlify
+
+---
+
+## Lab 04
+
+### Feature Requirements 04
+
+- Feature #1: Filter by Numbers of Horns
+  - As a user, I want to be able to view the beasts by the number of horns.
+
+### Time Estimate Tracking 04
+
+| Number & Name of Feature | #1: Display Display Modal |
+|--------------------------|-------|
+| Est. Time to Complete    | 03:00 |
+| Start Time               | 19:00 |
+| Finish Time              | 22:30 |
+| Actual Time to Complete  | 03:30 |
 
 ---
 
@@ -23,8 +41,8 @@ Tools: Visual Studio Code, React, React Bootstrap, Netlify
 |--------------------------|-------|-------|
 | Est. Time to Complete    | 02:00 | --:-- |
 | Start Time               | 15:00 | --:-- |
-| Finish Time              | --:-- | --:-- |
-| Actual Time to Complete  | --:-- | --:-- |
+| Finish Time              | unknown | --:-- |
+| Actual Time to Complete  | unknown | --:-- |
 
 ---
 

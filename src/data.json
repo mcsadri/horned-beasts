@@ -171,8 +171,16 @@
       "_id": 22,
       "image_url": "https://mario.wiki.gallery/images/thumb/7/7d/MSOGT_Bowser.png/300px-MSOGT_Bowser.png",
       "title": "Bowser",
-      "description": "King Koopa of the Koopa Troop",
+      "description": "King Koopa of the Koopa Troop. For the nitpickers: spikes != horns",
       "keyword": "koopa",
       "horns": 2
+    },
+    {
+      "_id": 23,
+      "image_url": "https://thumbs.dreamstime.com/b/black-labrador-puppy-cute-female-tilting-her-head-43626661.jpg",
+      "title": "Black Labrador Puppy",
+      "description": "The most ferocious beasts don't need horns",
+      "keyword": "puppy",
+      "horns": 0
     }
   ]
